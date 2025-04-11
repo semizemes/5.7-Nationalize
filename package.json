@@ -1,0 +1,28 @@
+{
+  "name": "5.7-nationalize",
+  "version": "1.0.0",
+  "description": "It can try find country you are from",
+  "homepage": "https://github.com/semizemes/Country-finder#readme",
+  "bugs": {
+    "url": "https://github.com/semizemes/Country-finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semizemes/Country-finder.git"
+  },
+  "license": "ISC",
+  "author": "Abbos",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "i18n-iso-countries": "^7.14.0",
+    "iso-country-codes": "^0.0.5"
+  }
+}

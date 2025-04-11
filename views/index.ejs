@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the Country</title>
+</head>
+<body>
+    <form id="form" action="/" method="post">
+    <input value="<%= locals.name %>" id="input" name="name" placeholder="Familiyangiz yoki to'liq ismingizni kiriting" type="text">
+        <button type="submit">Find</button>
+    </form>
+
+    <% if (locals.name) { %>
+        <div>
+            <p><%= name %> is from <%= country %> with <%= percentage %> certainty</p>
+        </div>
+     
+    <% } %>
+
+
+</body>
+</html>
