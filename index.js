@@ -32,7 +32,7 @@ app.post("/", async (req, res) => {
     let percent = Math.round(result.country[0].probability * 100) - 1;
     const countryISOCode = result.country[0].country_id;
     const countryName = countries.getName(countryISOCode, 'en');
-    console.log(result);
+    // console.log(result);
     res.render("index.ejs", {
         name: result.name,
         country: countryName,
